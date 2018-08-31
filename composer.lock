@@ -66,12 +66,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/comproso/element-collection.git",
-                "reference": "81225c66881fb3fe5565f260df3b12616186418f"
+                "reference": "cca59822e2886fbc3eb75b1171cb3c16f450da1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/comproso/element-collection/zipball/81225c66881fb3fe5565f260df3b12616186418f",
-                "reference": "81225c66881fb3fe5565f260df3b12616186418f",
+                "url": "https://api.github.com/repos/comproso/element-collection/zipball/cca59822e2886fbc3eb75b1171cb3c16f450da1d",
+                "reference": "cca59822e2886fbc3eb75b1171cb3c16f450da1d",
                 "shasum": ""
             },
             "require": {
@@ -96,7 +96,7 @@
                 }
             ],
             "description": "collection of standard elements for the comproso framework",
-            "time": "2016-11-22T10:51:32+00:00"
+            "time": "2018-08-31T16:53:22+00:00"
         },
         {
             "name": "comproso/element-leise",
@@ -144,12 +144,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/comproso/framework.git",
-                "reference": "f755d3e52f8e1bb4dc1d29ab920b1214fafd39a5"
+                "reference": "c6109e7e2408cf16efaac3580fa7d56839310528"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/comproso/framework/zipball/f755d3e52f8e1bb4dc1d29ab920b1214fafd39a5",
-                "reference": "f755d3e52f8e1bb4dc1d29ab920b1214fafd39a5",
+                "url": "https://api.github.com/repos/comproso/framework/zipball/c6109e7e2408cf16efaac3580fa7d56839310528",
+                "reference": "c6109e7e2408cf16efaac3580fa7d56839310528",
                 "shasum": ""
             },
             "require": {
@@ -177,7 +177,7 @@
                 }
             ],
             "description": "comproso behavioral measurement framework",
-            "time": "2017-02-13T15:14:10+00:00"
+            "time": "2018-08-31T16:50:50+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
