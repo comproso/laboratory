@@ -1,0 +1,8 @@
+model;page;page_assets;repetitions;time;returnable;recallable;operations_template;type;wrapper_type;html;html_tag;label;cssclass;variable_name;variable_type;value_min;value_max;value_start;target_value_min;target_value_max;formula;unit;scale;decimal;icon;validation;name;proceed
+Comproso\Framework\Models\Page;1;"[""vendor/comproso/element-leise/leise.css"",""vendor/comproso/element-leise/chart.js/Chart.min.js"",""vendor/comproso/element-leise/leise.js""]";15;;0;0;comproso::pages.op_fwd;;;;;;;;;;;;;;;;;;;;;
+Comproso\Elements\Collection\Models\ContentElement;1;;;;;;;wrapper;begin;;div;;ui stackable three cards;;;;;;;;;;;;;;;
+Comproso\Elements\Leise\Models\LeiseElement;1;;;;;;;;;;;networking;;p;manifest;0;1200;0;;;;minutes;100;0;comments outline blue;numeric;Input1_Exp1;1
+Comproso\Elements\Leise\Models\LeiseElement;1;;;;;;;;;;;investments;notrace;Z;latent;0;3000;0;30;35;Z + Z * [-0.05] + p * 30 ;euro;;0;line chart;numeric;Output1_Exp1;1
+Comproso\Elements\Collection\Models\ContentElement;1;;;;;;;wrapper;end;;div;;;;;;;;;;;;;;;;;
+Comproso\Framework\Models\Page;2;;;;;;;;;;;;;;;;;;;;;;;;;;;
+Comproso\Elements\Collection\Models\ContentElement;2;;;;;;;text;;Thanks for participating!;;;;;;;;;;;;;;;;;;
