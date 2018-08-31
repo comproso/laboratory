@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "289fc0edc2eb7647e45f1e5b259de8b6",
+    "content-hash": "507e7c06f3b8dcf07c4a53164ef669bc",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -100,16 +100,16 @@
         },
         {
             "name": "comproso/element-leise",
-            "version": "0.4.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/comproso/element-leise.git",
-                "reference": "8671b381833c3ace0b3a190933325ebc1181e61d"
+                "reference": "56658a071859667778243e624fed8337fde549cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/comproso/element-leise/zipball/8671b381833c3ace0b3a190933325ebc1181e61d",
-                "reference": "8671b381833c3ace0b3a190933325ebc1181e61d",
+                "url": "https://api.github.com/repos/comproso/element-leise/zipball/56658a071859667778243e624fed8337fde549cd",
+                "reference": "56658a071859667778243e624fed8337fde549cd",
                 "shasum": ""
             },
             "require": {
@@ -127,8 +127,8 @@
             ],
             "authors": [
                 {
-                    "name": "Thiemo Kunze",
-                    "email": "kunze@wangaz.com",
+                    "name": "Author",
+                    "email": "impressum@comproso.org",
                     "role": "Developer"
                 }
             ],
@@ -136,7 +136,7 @@
             "keywords": [
                 "comproso"
             ],
-            "time": "2016-09-04T11:09:02+00:00"
+            "time": "2018-08-31T16:52:16+00:00"
         },
         {
             "name": "comproso/framework",
@@ -3539,12 +3539,19 @@
             "alias_normalized": "0.1.0.0",
             "version": "9999999-dev",
             "package": "comproso/element-collection"
+        },
+        {
+            "alias": "0.4.1",
+            "alias_normalized": "0.4.1.0",
+            "version": "9999999-dev",
+            "package": "comproso/element-leise"
         }
     ],
     "minimum-stability": "stable",
     "stability-flags": {
         "comproso/framework": 20,
-        "comproso/element-collection": 20
+        "comproso/element-collection": 20,
+        "comproso/element-leise": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
