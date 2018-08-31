@@ -15,6 +15,8 @@ class ExampleTestSeeder extends Seeder
     {
         // create test
         $test = new Test;
+        $test->type = "project";
+        $test->active = true;
         $test->name = "Example Test";	// Name your test
         $test->save();
 
