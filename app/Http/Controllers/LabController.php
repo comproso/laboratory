@@ -22,7 +22,7 @@ class LabController extends Controller
 	public function getIndex()
 	{
 		// get projects
-		$tests = Test::ofType('project')->isActive()->get();
+		$tests = Test::all();
 
 		// logout User
 		if(Auth::check())
