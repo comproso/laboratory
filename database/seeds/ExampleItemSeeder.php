@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 
 use Comproso\Framework\Models\Test;
 
-class ExampleTestSeeder extends Seeder
+class ExampleItemSeeder extends Seeder
 {
     /**
      * Run the database seeds.
