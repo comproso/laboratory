@@ -155,14 +155,14 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
-	Maatwebsite\Excel\ExcelServiceProvider::class,
+		Maatwebsite\Excel\ExcelServiceProvider::class,
 
         /*
          * Comproso Providers...
          */
-        #Comproso\Framework\ComprosoFrameworkServiceProvider::class,
-		#Comproso\Elements\Collection\ComprosoElementCollectionServiceProvider::class,
-		#Comproso\Elements\Leise\ElementLeiseServiceProvider::class,
+        Comproso\Framework\ComprosoFrameworkServiceProvider::class,
+		Comproso\Elements\Collection\ComprosoElementCollectionServiceProvider::class,
+		Comproso\Elements\Leise\ElementLeiseServiceProvider::class,
 
     ],
 
@@ -209,7 +209,7 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-	'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+		'Excel' => Maatwebsite\Excel\Facades\Excel::class,
     ],
 
 ];
