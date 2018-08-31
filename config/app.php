@@ -161,6 +161,7 @@ return [
          */
         #Comproso\Framework\ComprosoFrameworkServiceProvider::class,
 		#Comproso\Elements\Collection\ComprosoElementCollectionServiceProvider::class,
+		#Comproso\Elements\Leise\ElementLeiseServiceProvider::class,
 
     ],
 
