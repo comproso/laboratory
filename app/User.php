@@ -23,4 +23,14 @@ class User extends Authenticatable
     protected $hidden = [
         'password', 'remember_token',
     ];
+    
+    /**
+     * Connection to Test Model.
+     *
+     * @return results
+     */
+    public function tests()
+    {
+	    return $this->belongsToMany('Comproso\Framework\Models\Test')->where('type', 'project')->withPivot('page_id')->withPivot('repetitions')->withPivot('finished')->withTimestamps();
+    }
 }
