@@ -102,7 +102,7 @@ class LabController extends Controller
 			return redirect('/');
 
 		// return test
-		return $test->guarded()/*->proceed()*/->respond();
+		return $test->guarded()->proceed()->respond();
 	}
 
 	/**
@@ -126,7 +126,7 @@ class LabController extends Controller
 		#$request->flash();
 		#$request->session()->reflash();
 
-		#return $test->guarded()->proceed()->respond();
+		return $test->guarded()->proceed()->respond();
 		return redirect('/run/'.$test->id);
 	}
 
